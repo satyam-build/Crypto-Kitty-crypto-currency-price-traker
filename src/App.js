@@ -68,16 +68,16 @@ function App() {
             <input type="text" placeholder='search any currency' className='coin-input' onChange={handlechange} />
           </form>
         </div>
-        <div className=".coinHead coin-container">
-          <div className="coin-row">
-            <div className="coin">
-              <h3 className='ftMdq720-550'>Logo</h3>
-              <h2 className='ftMdq720-550'>Currency</h2>
-              <p className="coin-symbol ftMdq720-550">Symbol</p>
-              <p className="coin-price ftMdq720-550">Price</p>
-              <p className="coin-volume ftMdq720-550">Volume</p>
-              <p className='coin-percent ftMdq720-550'>Price Change %</p>
-              <p className='coin-marketcap'>Market Cap </p>
+        <div className="coin-container">
+          <div className="coin-row coinHead">
+            <div className="coin coinHead">
+              <h3 className='ftMdq720-550 uppc'>Logo</h3>
+              <h2 className='ftMdq720-550 uppc'>Currency</h2>
+              <p className="coin-symbol symbol ftMdq720-550 uppc">Symbol</p>
+              <p className="coin-price ftMdq720-550 uppc">Price</p>
+              <p className="coin-volume ftMdq720-550 uppc">Volume</p>
+              <p className='coin-percent ftMdq720-550 uppc'>Price Change %</p>
+              <p className='coin-marketcap uppc'>Market Cap </p>
             </div>
           </div>
         </div>

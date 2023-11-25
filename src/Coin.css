@@ -150,6 +150,7 @@
 
 /* Coin Container CSS */
 .coin-container {
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -157,12 +158,12 @@
 .coin-row {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   height: 80px;
   border-top: 1px solid #d7d7d7;
   width: 95vw;
-  max-width: 820px;
+  max-width: 900px;
 }
 
 .coin {
@@ -170,10 +171,13 @@
   align-items: center;
   justify-content: space-around;
   padding-right: 5px;
-
   /* min-width: 300px; */
 }
 
+/* .coinHead{
+  background-color: #e2e2e2;
+  align-items: center;
+} */
 .coin h2 {
   font-size: 16px;
   font-family: sans-serif;
@@ -196,6 +200,9 @@
   margin-right: 25px;
 }
 
+.uppc{
+  text-transform:capitalize !important;
+}
 /* .coin h3{
     
     margin-right: 0px;
